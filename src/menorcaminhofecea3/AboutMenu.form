@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-81,0,0,3,-90"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="430" y="380" width="130" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="viewportBorder" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="ABOUT"/>
+          </Border>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="940" height="440"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="tabSize" type="int" value="10"/>
+            <Property name="text" type="java.lang.String" value="The Faculdade Estadual de Ci&#xea;ncias Econ&#xf4;nicas de Apucarana (FECEA) was founded in 1959. On February 16, 1961, &#xa;the college entrance exam began with a written test and oral test. On March 18, 1961, the inaugural class of &#xa;the first year of operation of the Faculty was held in the noble hall of the Nile Cairo State College. The lecture &#xa;was given by Professor Moacir Fantini who spoke on the theme &quot;The function of the Faculdade de Ci&#xea;ncias Econ&#xf4;micas&#xa;before the Brazilian reality&quot;.In 2013, it joined one of the 7 UNESPAR campus.&#xa;The Universidade do Estado do Paran&#xe1; (University of the State of Paran&#xe1;  (Unespar) is an institution of higher&#xa;education administered by the Government of the Paran&#xe1; State. This is a university that has campus all over the &#xa;Paran&#xe1; State, in cities that have cultural and historical roots as different as Apucarana, Campo Mour&#xe3;o, Curitiba, &#xa;Paranagu&#xe1;, Paranava&#xed;, and Uni&#xe3;o da Vit&#xf3;ria. Despite the challenges that every multi-campi institution encounters,&#xa;Unespar is one of the most integrated universities of Southern Brazil.&#xa;Unespar offers undergraduate (bachelor&apos;s degree and teacher-training courses) and graduate courses (masters degree)&#xa;in different fields of knowledge. Our teaching staff is comprised of more than 600 professionals that work hard to&#xa;bring out the best in all of our students.&#xa;The core values of the Unespar is the pursuit and promotion of citizenship, democracy, cultural diversity, &#xa;sustainable behaviour, and human development. It has as mission offer an environment for the development and &#xa;dissemination of innovative knowledge in fields such as Sciences, Arts and Technology.&#xa;&#xa;&#xa;&#xa;The project was created by the 2nd year of Computer Science students Guilherme Henrique de Souza and Sara Saori &#xa;Satake in 2017, for the subject of Graph Teory."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
